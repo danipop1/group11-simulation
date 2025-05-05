@@ -1,0 +1,13 @@
+# Update the 
+title: Just Another Simulation
+description: A starter template for new simulations.
+footer_content: 'Simulation for Future of Security.'
+
+# Theme configurations. Do NOT modify.
+theme: just-the-docs
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
