@@ -1,10 +1,14 @@
-center:
-  latitude: 37.229572
-  longitude: -80.413940
-  zoom: 9
-locations:
-  - name: VT
-    description: Go Hokies!
-    latitude: 37.2249991
-    longitude: -80.4249983
-    url: https://www.vt.edu
+# Example map data for future use (e.g., network topology, location pins)
+phases:
+  - id: 1
+    name: Detection
+    color: "#d9534f"
+  - id: 2
+    name: Containment
+    color: "#f0ad4e"
+  - id: 3
+    name: Disclosure
+    color: "#5bc0de"
+  - id: 4
+    name: Recovery
+    color: "#5cb85c"
