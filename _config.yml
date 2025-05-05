@@ -1,7 +1,7 @@
 # Update the 
-title: Just Another Simulation
-description: A starter template for new simulations.
-footer_content: 'Simulation for Future of Security.'
+title: Salt Typhoon Cyber Breach Simulation
+description: The simulation emulates a sophisticated cyberattack to stress-test your organization’s response protocols and teamwork.
+footer_content: 'Final Product Simulation for Future of Security.'
 
 # Theme configurations. Do NOT modify.
 theme: just-the-docs
