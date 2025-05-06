@@ -2,6 +2,7 @@
 layout: page
 title: Simulation Manual
 nav_order: 2
+permalink: /manual/
 ---
 
 ## Salt Typhoon Cybersecurity Breach
