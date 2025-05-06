@@ -8,7 +8,7 @@ nav_order: 2
 
 <!-- Embed the uploaded PDF -->
 <iframe 
-  src="{{ '/assets/docs/Background.pdf' | relative_url }}" 
+  src="{{ '/fact-sheet.pdf' | [relative_url](https://docs.fcc.gov/public/attachments/DOC-408015A1.pdf) }}" 
   width="100%" 
   height="800px" 
   style="border: none;"
