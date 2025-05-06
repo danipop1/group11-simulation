@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Facilitator Resources
-parent: resources
+parent: Resources
 nav_order: 7
 ---
 
