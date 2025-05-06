@@ -2,6 +2,7 @@
 layout: page
 title: FAQs & Troubleshooting
 nav_order: 6
+permalink: /faq/
 ---
 
 Listed below are frequently asked questions pertaining to the simulation and any potential issues encountered over the course of the simulation.
