@@ -16,7 +16,7 @@ Welcome to **Salt Typhoon**, a hands-on cybersecurity breach simulation. Over fo
 3. Manage public disclosure and legal risks  
 4. Execute recovery and resilience strategies  
 
-📖 Read the full [Simulation Manual](/manual/)  
+📖 Read the full [Simulation Manual](/user-manual.pdf/)  
 👥 See [Roles & Responsibilities](/roles/)  
 🗓️ View the [Simulation Timeline](/timeline/)  
 📊 Review [Evaluation Metrics](/evaluation-metrics/)  
