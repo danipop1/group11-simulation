@@ -1,18 +1,76 @@
 ---
-title: Ipsum
 layout: page
-parent: Resources
-nav_order: 2
+title: Facilitator Resources
+nav_order: 7
 ---
 
-# Ipsum
+# Facilitator Resources
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae egestas lacus. Nunc tellus dui, tincidunt at elementum et, tempor non sem. Donec aliquam augue ut mi varius, vitae sollicitudin ipsum sodales. Curabitur at mollis turpis, posuere condimentum erat. Maecenas egestas egestas nunc. Ut commodo risus eget odio egestas porttitor. Etiam at quam ipsum. Sed tincidunt, neque suscipit bibendum ultrices, velit ante varius dolor, ut fermentum nunc lacus quis libero. Mauris sit amet erat venenatis, facilisis magna vel, efficitur dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus libero quis mi gravida, at ultrices urna suscipit. Curabitur maximus libero eu ultricies vestibulum. Nam sollicitudin, urna non facilisis dapibus, ligula nulla varius risus, molestie placerat purus velit at lectus. Vestibulum porttitor laoreet scelerisque.
+This page provides guidance and best practices for facilitators running the Salt Typhoon Cybersecurity Breach simulation.
 
-Aenean efficitur, augue aliquet scelerisque ullamcorper, nunc purus hendrerit nisi, eget ultrices leo velit at metus. Donec tortor lacus, congue ac ultrices id, feugiat et lorem. Curabitur sed volutpat urna, sit amet venenatis odio. Vivamus dui enim, blandit ut finibus mollis, pharetra eu nunc. Curabitur id orci et dui aliquam ornare. Sed eu scelerisque sem. Etiam congue ipsum nulla, sit amet pellentesque nisl dapibus eu. Quisque eleifend urna sit amet nisi congue, nec consectetur magna dignissim. Nullam nunc lectus, cursus ut dolor et, porttitor lacinia lectus.
+## 1. Facilitator Role Overview
+As facilitator, you will:
+- **Introduce** the simulation context, objectives, and deliverables  
+- **Assign** and explain participant roles  
+- **Administer** each phase by distributing materials and collecting outputs  
+- **Track** team progress using the defined evaluation metrics  
+- **Guide** without giving away solutions, encouraging internal problem-solving  
 
-Aliquam vitae sem eu felis fringilla pharetra. Aliquam lacinia urna quis ex faucibus, sed tempor quam efficitur. Vestibulum pulvinar dolor eu lacus suscipit, eleifend placerat augue hendrerit. Curabitur lobortis malesuada sodales. Morbi vitae enim vel orci dictum rhoncus in eu quam. In interdum in nisi id euismod. Aliquam dolor lorem, mattis et pharetra suscipit, pellentesque sit amet nisi. Integer fermentum consectetur nulla, porta interdum massa malesuada sit amet. Ut at mollis erat. Vivamus accumsan volutpat justo, non efficitur quam venenatis ut.
+---
 
-Etiam vitae massa pulvinar risus molestie tristique sed ut magna. Praesent sollicitudin velit diam, quis convallis risus volutpat imperdiet. Fusce porttitor convallis metus, eget fringilla ex tristique in. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam imperdiet, velit ac bibendum gravida, erat justo iaculis odio, non molestie justo felis nec ipsum. Donec congue lacus nec pulvinar semper. Nulla imperdiet dignissim ligula, nec lacinia massa bibendum non. Aliquam laoreet sit amet mi non mollis.
+## 2. Introducing the Simulation
+1. **Overview & Objectives**  
+   - Brief participants on “Salt Typhoon”  
+   - Emphasize goals:  
+     - Assess reaction strategies  
+     - Uncover security gaps  
+     - Simulate progressive threats  
+     - Strengthen interdepartmental cooperation  
+     - Refine crisis response capabilities  
+2. **Role Assignment**  
+   - Distribute roles (Incident Response Coordinator, Network Security Specialist, Malware Analyst, Data Privacy Officer)  
+   - Clarify each role’s responsibilities and deliverables  
+3. **Phase Structure**  
+   - Explain the four phases and their outputs:  
+     1. Threat Assessment  
+     2. Containment Plan  
+     3. Crisis Communication Plan  
+     4. Resilience Strategy  
+   - Confirm timelines and methods for submission  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et auctor tortor, eget auctor enim. In volutpat purus eget aliquet rutrum. Cras id semper justo. Curabitur facilisis feugiat venenatis. Nulla et ligula eget purus tincidunt auctor quis nec mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor sollicitudin quam at fermentum. Nulla ornare erat sit amet metus egestas, sit amet pharetra nisi varius. Pellentesque vehicula, nisi ac dignissim fringilla, sem ex ultrices ex, vel pretium metus justo tempus justo. Pellentesque porta mauris ante, ut feugiat ligula aliquam eget. Proin eget ante at ante laoreet fringilla. Suspendisse eget turpis sed mauris iaculis porta.
+---
+
+## 3. Handling Participant Questions
+- Act as a **neutral guide**  
+- **Prompt** participants with leading questions rather than solutions  
+- Encourage teams to **collaborate internally** before seeking facilitator input  
+- Maintain the **flow** of the exercise, ensuring on-time progression through phases  
+
+---
+
+## 4. Providing & Injecting Additional Information
+- Use **injects** to simulate real-world unpredictability and pressure:  
+  - Media leaks or breaking news  
+  - Policy or regulatory updates  
+  - New technical findings or vulnerabilities  
+- **Timing & Purpose**  
+  - Schedule injects to highlight potential blind spots  
+  - Trigger critical discussions (technical, legal, ethical, strategic)  
+  - Reinforce learning objectives and maintain engagement  
+- **Delivery Methods**  
+  - Email announcements  
+  - Printed or slide-deck handouts  
+  - Live “breaking news” bulletin  
+
+---
+
+## 5. Quick-Start Checklist
+- [ ] Prep participant materials for all four phases  
+- [ ] Upload inject documents & schedule delivery times  
+- [ ] Review evaluation metrics and scoring rubric  
+- [ ] Confirm PDF/manual links on the website  
+- [ ] Test site navigation and download links  
+
+---
+
+_For more support, refer to the [Simulation Manual](/user-manual.pdf) or contact the simulation administrator._  
