@@ -7,7 +7,7 @@ permalink: /
 
 # Salt Typhoon Simulation
 
-![Salt Typhoon Logo](/assets/images/salt-typhoon-logo.png)
+![Salt Typhoon Logo](/assets/salt-typhoon-logo.png)
 
 Welcome to **Salt Typhoon**, a hands-on cybersecurity breach simulation. Over four progressive phases, your team will:
 
