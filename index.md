@@ -20,4 +20,4 @@ Welcome to **Salt Typhoon**, a hands-on cybersecurity breach simulation. Over fo
 👥 See [Roles & Responsibilities](/roles/)  
 🗓️ View the [Simulation Timeline](/timeline/)  
 📊 Review [Evaluation Metrics](/evaluation-metrics/)  
-❓ Check our [FAQs & Troubleshooting](/faq/)
+❓ Check our [FAQs & Troubleshooting]({% link faq.md %})
