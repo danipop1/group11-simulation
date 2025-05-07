@@ -2,7 +2,6 @@
 layout: page
 title: References
 nav_order: 8
-parent: Resources
 ---
 
 # References
