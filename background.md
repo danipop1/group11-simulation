@@ -2,7 +2,21 @@
 title: Background
 layout: page
 nav_order: 2
+permalink: /background/
 ---
+
+<!-- Embed the FCC Fact Sheet PDF -->
+<object
+  data="{{ '/assets/docs/fact-sheet.pdf' | relative_url }}"
+  type="application/pdf"
+  width="100%"
+  height="800"
+>
+  <p>
+    Your browser doesn’t support embedded PDFs.  
+    You can <a href="{{ '/assets/docs/fact-sheet.pdf' | relative_url }}">download the full fact sheet here</a>.
+  </p>
+</object>
 
 ## Background of the Salt Typhoon Attack
 
@@ -14,4 +28,4 @@ Because telecommunications networks underpin national security, public safety, a
 
 ### References
 
-1. Federal Communications Commission, “Fact Sheet: Salt Typhoon,” December 2024. [Download the full PDF here](/assets/docs/fact-sheet.pdf)
+1. Federal Communications Commission, “Fact Sheet: Salt Typhoon,” December 2024. [Download the full PDF here]({{ '/assets/docs/fact-sheet.pdf' | relative_url }})
