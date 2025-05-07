@@ -7,14 +7,14 @@ permalink: /background/
 
 <!-- Embed the FCC Fact Sheet PDF -->
 <object
-  data="{{ '/assets/docs/fact-sheet.pdf' | relative_url }}"
+  data="{{ '/fact-sheet.pdf' | relative_url }}"
   type="application/pdf"
   width="100%"
   height="800"
 >
   <p>
     Your browser doesn’t support embedded PDFs.  
-    You can <a href="{{ '/assets/docs/fact-sheet.pdf' | relative_url }}">download the full fact sheet here</a>.
+    You can <a href="{{ '/fact-sheet.pdf' | relative_url }}">download the full fact sheet here</a>.
   </p>
 </object>
 
