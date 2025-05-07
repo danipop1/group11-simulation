@@ -1,4 +1,12 @@
-# Example map data for future use (e.g., network topology, location pins)
+# _data/map.yml
+
+# Map viewport settings
+center:
+  latitude: 37.229572
+  longitude: -80.413940
+  zoom: 9
+
+# Phase definitions (used for styling pins, legends, etc.)
 phases:
   - id: 1
     name: Detection
@@ -12,3 +20,75 @@ phases:
   - id: 4
     name: Recovery
     color: "#5cb85c"
+
+# Event locations tied to each phase
+locations:
+  - phase_id: 1
+    name: "Phase 1 – Initial Detection"
+    description: "Suspicious network activity detected at PacificTelco data center"
+    latitude: 37.7749
+    longitude: -122.4194
+    url: "/timeline/#phase-1"
+
+  - phase_id: 1
+    name: "Phase 1 – CISA Alert Issued"
+    description: "CISA publishes an early warning bulletin on Salt Typhoon"
+    latitude: 38.9072
+    longitude: -77.0369
+    url: "/timeline/#phase-1"
+
+  - phase_id: 1
+    name: "Phase 1 – Media Leak"
+    description: "Major news outlet breaks story on suspected breaches"
+    latitude: 40.7128
+    longitude: -74.0060
+    url: "/timeline/#phase-1"
+
+  - phase_id: 2
+    name: "Phase 2 – Breach Confirmed"
+    description: "MidwestTel confirms unauthorized access to core routers"
+    latitude: 41.8781
+    longitude: -87.6298
+    url: "/timeline/#phase-2"
+
+  - phase_id: 2
+    name: "Phase 2 – Containment Begins"
+    description: "Containment firewalls deployed at LoneStar Communications"
+    latitude: 29.7604
+    longitude: -95.3698
+    url: "/timeline/#phase-2"
+
+  - phase_id: 3
+    name: "Phase 3 – Public Disclosure"
+    description: "Salt Typhoon officially identified as the attacker"
+    latitude: 51.5074
+    longitude: -0.1278
+    url: "/timeline/#phase-3"
+
+  - phase_id: 3
+    name: "Phase 3 – Lawsuit Filed"
+    description: "Class-action suit filed over the breach in Washington, DC"
+    latitude: 38.9072
+    longitude: -77.0369
+    url: "/timeline/#phase-3"
+
+  - phase_id: 4
+    name: "Phase 4 – FCC Proposal"
+    description: "FCC proposes updates to CALEA requiring annual cybersecurity certifications"
+    latitude: 38.9072
+    longitude: -77.0369
+    url: "/timeline/#phase-4"
+
+  - phase_id: 4
+    name: "Phase 4 – Industry Reform"
+    description: "Telecom industry publishes draft security reform recommendations"
+    latitude: 34.0522
+    longitude: -118.2437
+    url: "/timeline/#phase-4"
+
+  - phase_id: 4
+    name: "Phase 4 – Resilience Strategy"
+    description: "Final resilience framework unveiled by Northwest Communications"
+    latitude: 47.6062
+    longitude: -122.3321
+    url: "/timeline/#phase-4"
