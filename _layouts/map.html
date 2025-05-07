@@ -1,23 +1,41 @@
 ---
 layout: page
+title: Event Map
+nav_order: 9
+permalink: /map/
 ---
 
-{{ content }}
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet/dist/leaflet.css"
+/>
 
-<div id="map" style="width:100%;height:400px"></div>
+<div id="map" style="width:100%;height:600px;margin-bottom:1em;"></div>
 
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
-const map = L.map('map').setView([ {{ site.data.map.center.latitude }}, {{ site.data.map.center.longitude }}], {{ site.data.map.center.zoom | default: 13 }});
+  // Initialize the map
+  const centerLat = {{ site.data.map.center.latitude }};
+  const centerLng = {{ site.data.map.center.longitude }};
+  const centerZoom = {{ site.data.map.center.zoom }};
+  const map = L.map('map').setView([centerLat, centerLng], centerZoom);
 
-const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
-</script>
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
 
-{%- for location in site.data.map.locations -%}
-<script>
-    var marker = L.marker([ {{ location.latitude }}, {{ location.longitude }} ]).addTo(map);
-    marker.bindPopup("<b>{{ location.name }}</b><br>{{ location.description }}<br><a href='{{ location.url }}'>{{ location.url }}</a>").openPopup();
+  // Add markers from data file
+  {% for loc in site.data.map.locations %}
+    L.marker([{{ loc.latitude }}, {{ loc.longitude }}])
+      .addTo(map)
+      .bindPopup(
+        `<strong>{{ loc.name }}</strong><br>` +
+        `{{ loc.description }}<br>` +
+        `<a href="{{ loc.url }}">View Phase</a>`
+      );
+  {% endfor %}
 </script>
-{% endfor %}
